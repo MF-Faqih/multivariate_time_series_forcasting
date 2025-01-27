@@ -11,3 +11,5 @@ Among all 5 models, prophet has the best performance based on RMSE number. Some 
 - Prophet give more flexibility, we can tuning more parameters compared to other model
 - ARIMA sarima work best on data with linear trend, but my data has quadratic trend
 - Exogen variable have significant impact to the target variable, since only one predictor have linear relationship with the target, any other model will face endogenaity (lack of important variable) while prophet only use this variable to lower the error term.
+
+Here, I'm also explaining step by step from model assumption to how to choose model parameters manually to get better undestanding of the model.
